@@ -7,6 +7,8 @@ __pycache__/
 .venv/
 venv/
 ENV/
+# Ruff
+.ruff_cache/
 
 # Model cache
 .cache/
