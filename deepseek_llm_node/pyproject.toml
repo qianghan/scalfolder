@@ -38,7 +38,7 @@ extend-ignore = ["E203", "W503"]
 [tool.comfyui]
 name = "DeepSeek LLM Node"
 description = "A ComfyUI node that calls DeepSeek-LLM for text generation"
-version = "0.1.0"
+version = "0.2.0"
 publisher_id = "qiang"
 tags = ["llm", "text-generation", "deepseek"]
 author = "Qiang Han <qiang@livpeer.org>"
