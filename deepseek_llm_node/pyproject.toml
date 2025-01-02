@@ -19,12 +19,12 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-  "pytest",
-  "pytest-mock",
-  "flake8",
-  "black",
-  "mypy",
-  "pre-commit"
+    "pytest",
+    "pytest-mock",
+    "flake8",
+    "black",
+    "mypy",
+    "pre-commit"
 ]
 
 [tool.black]
@@ -36,10 +36,10 @@ max-line-length = 88
 extend-ignore = ["E203", "W503"]
 
 [tool.comfyui]
-title = "DeepSeek LLM Node"
+name = "DeepSeek LLM Node"
 description = "A ComfyUI node that calls DeepSeek-LLM for text generation"
-tags = ["llm", "text generation", "deepseek"]
-version = "0.2.0"
-author = "Qiang Han"
-homepage = "https://github.com/qianghan/deepseek_llm_node"
+version = "0.1.0"
 publisher_id = "qiang"
+tags = ["llm", "text-generation", "deepseek"]
+author = "Qiang Han <qiang@livpeer.org>"
+homepage = "https://github.com/qianghan/deepseek_llm_node"
