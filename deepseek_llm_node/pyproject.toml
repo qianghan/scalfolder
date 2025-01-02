@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deepseek_llm_node"
+version = "0.1.0"
+description = "Deepseek_LLM custom-node for ComfyUI"
+authors = [{ name = "Qiang Han", email = "qiang@livpeer.org" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+keywords = ["comfyui", "nodes", "example"]
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.36.0",
+    "safetensors>=0.4.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "pytest-mock",
+  "flake8",
+  "black",
+  "mypy",
+  "pre-commit"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+
