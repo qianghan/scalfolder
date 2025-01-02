@@ -42,3 +42,4 @@ tags = ["llm", "text generation", "deepseek"]
 version = "0.1.0"
 author = "Qiang Han"
 homepage = "https://github.com/qianghan/deepseek_llm_node"
+publisher_id = "qiang"
