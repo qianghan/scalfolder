@@ -35,3 +35,10 @@ target-version = ['py38', 'py39', 'py310', 'py311']
 max-line-length = 88
 extend-ignore = ["E203", "W503"]
 
+[tool.comfyui]
+title = "DeepSeek LLM Node"
+description = "A ComfyUI node that calls DeepSeek-LLM for text generation"
+tags = ["llm", "text generation", "deepseek"]
+version = "0.1.0"
+author = "Qiang Han"
+homepage = "https://github.com/qianghan/deepseek_llm_node"
